@@ -1,0 +1,50 @@
+
+Prompt 1: What is the main objective of this project?
+
+Response:
+The main objective of this project is to develop a simple 2D graphics editor using the C programming language. The application allows users to draw basic shapes such as lines, rectangles, triangles, and circles on a text-based canvas. It also provides options to modify and delete shapes, helping in understanding how graphical objects are managed in a program.
+
+Prompt 2: What programming concepts did you learn from this project?
+
+Response:
+This project helped me learn several Advanced C programming concepts, including structures, arrays, functions, loops, conditional statements, and modular programming. It also improved my understanding of how large programs can be divided into smaller functions for better readability and maintenance.
+
+Prompt 3: Why were structures used in this project?
+
+Response:
+Structures were used to store information related to graphical objects. Each structure contains details such as object ID, shape type, coordinates, dimensions, and radius. Using structures made it easier to organize and manage multiple objects efficiently within the program.
+
+Prompt 4: How does the canvas work in the program?
+
+Response:
+The canvas is implemented using a two-dimensional character array. Initially, every position in the canvas is filled with an underscore character. When a shape is drawn, the corresponding positions are replaced with asterisks, creating a visual representation of the shape on the screen.
+
+Prompt 5: How are different shapes drawn on the canvas?
+
+Response:
+Separate functions are used to draw each shape. Lines are drawn using starting and ending coordinates, rectangles are drawn using width and height values, triangles are generated based on their height, and circles are created using radius calculations. These functions update the canvas according to the object’s properties.
+
+Prompt 6: What is the purpose of the redraw function?
+
+Response:
+The redraw function refreshes the canvas whenever an object is added, modified, or deleted. It first clears the canvas and then redraws all the stored objects. This ensures that the display always shows the latest version of the drawing without any inconsistencies.
+
+Prompt 7: How are objects identified in the program?
+
+Response:
+Each object is assigned a unique ID when it is created. These IDs help users identify specific objects for modification or deletion. The unique identification system makes object management easier, especially when multiple shapes are present on the canvas.
+
+Prompt 8: What challenges did you face while developing this project?
+
+Response:
+One of the challenges was managing multiple graphical objects and ensuring that all changes were reflected correctly on the canvas. Another challenge was handling boundary conditions so that shapes would not be drawn outside the canvas area. Debugging coordinate-related issues also required careful testing.
+
+Prompt 9: How does the delete feature work?
+
+Response:
+The delete feature asks the user to enter an object ID. The program searches for the matching object in the array and removes it if found. After deletion, the remaining objects are shifted to fill the empty space, and the canvas is redrawn to update the display.
+
+Prompt 10: What was the overall learning outcome of this project?
+
+Response:
+This project provided practical experience in applying Advanced C Programming concepts to solve real-world problems. It improved my skills in program design, data organization, object management, and logical thinking. Through this project, I gained confidence in developing interactive applications using C programming.
